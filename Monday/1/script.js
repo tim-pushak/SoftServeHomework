@@ -19,12 +19,12 @@
 // /
 
 // 4
-
+    let real;
     const obj = {
         name: "Ivan",
         age: 27,
         front: true,
-        real: '',
+        real,
         never: null
     }
 
