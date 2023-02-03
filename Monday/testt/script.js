@@ -1,7 +1,7 @@
 "use strict";
 
 let elements = [2, 3, 4, 5];
-for (let i; i <= elements.length, ) {
+for (let i; i <= elements.length, i++;) {
     
 }
 
