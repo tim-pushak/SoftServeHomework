@@ -108,15 +108,3 @@ findDuplicates([1, 2, 3, 5, 3]);
   
 
 // //// /
-
-let mentor = {
-    course: "JS fundamental",
-    duration: 3,
-    direction: "web-development"
-}
-
-function propsCount(currentObject) {
-    return console.log(Object.keys(currentObject).length);
-}
-
-propsCount(mentor);
