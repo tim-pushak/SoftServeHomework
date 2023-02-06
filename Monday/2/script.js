@@ -38,18 +38,18 @@ for (let i = 0; i < 16; i++) {
 // }
 // randArray(5);
 
+// ---------------------------------------------------------------------
+// let k = [];
 
-let k = [];
+// function randomNumber(quan) {
+//     for (let i = 0; i <= quan.length; i++) {
+//         let num = Math.floor((Math.random() * 4) + 1);
+//         k.push(num);
+//         console.log(k);
+//     }
+// }
 
-function randomNumber(quan) {
-    for (let i = 0; i <= quan.length; i++) {
-        let num = Math.floor((Math.random() * 4) + 1);
-        k.push(num);
-        console.log(k);
-    }
-}
-
-randomNumber(5);
+// randomNumber(5);
 // //// /
 
 // Task 4
