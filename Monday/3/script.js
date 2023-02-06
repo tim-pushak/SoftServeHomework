@@ -40,63 +40,63 @@ showProps(someObj);
 
 // Task 3
 
-class Person {
-    constructor (name, surname) {
-        this.name = name;
-        this.surname = surname;
-    }
+// class Person {
+//     constructor (name, surname) {
+//         this.name = name;
+//         this.surname = surname;
+//     }
 
-    showFullName() {
-        alert(`Name: ${this.name}, Surname: ${this.surname}`)
-    }
-}
+//     showFullName() {
+//         alert(`Name: ${this.name}, Surname: ${this.surname}`)
+//     }
+// }
 
-class Student extends Person {
-    constructor (name, surname, middleName, year) {
-        super(name, surname);
-        this.middleName = middleName;
-        this.year = year;
-    }
+// class Student extends Person {
+//     constructor (name, surname, middleName, year) {
+//         super(name, surname);
+//         this.middleName = middleName;
+//         this.year = year;
+//     }
 
-    middleName() {
-        alert(`${super.showFullName}, Surname: ${this.middleName}`);
-    }
-}
+//     middleName() {
+//         alert(`${super.showFullName}, Surname: ${this.middleName}`);
+//     }
+// }
 
-let creating = new Student();
-alert(creating.middleName);
+// let creating = new Student();
+// alert(creating.middleName);
 
-// //// /
+// // //// /
 
-// Task 5
+// // Task 5
 
-class Worker {
-    constructor (fullName, dayRate, workingDays) {
-        this.fullName = fullName;
-        this.dayRate = dayRate;
-        this.workingDays = workingDays;
-    }
+// class Worker {
+//     constructor (fullName, dayRate, workingDays) {
+//         this.fullName = fullName;
+//         this.dayRate = dayRate;
+//         this.workingDays = workingDays;
+//     }
 
-    showSalary() {
-        return this.dayRate * this.workingDays;
-    }
+//     showSalary() {
+//         return this.dayRate * this.workingDays;
+//     }
 
-    showSalaryWithExperience() {
-        return super.showSalary * 1.5;
-    }
-}
+//     showSalaryWithExperience() {
+//         return super.showSalary * 1.5;
+//     }
+// }
 
-// //// /
+// // //// /
 
-// Task 6
+// // Task 6
 
-class GeometricFigure {
-    getArea();
-    toString(e) {
-        let nameClass = document.getElementsByClassName(`.${e}`);
-        let classes = nameClass.className;
-        console.log(classes);
-    }
-}
+// class GeometricFigure {
+//     getArea();
+//     toString(e) {
+//         let nameClass = document.getElementsByClassName(`.${e}`);
+//         let classes = nameClass.className;
+//         console.log(classes);
+//     }
+// }
 
 // //// /
