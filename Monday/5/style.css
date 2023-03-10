@@ -1,0 +1,15 @@
+
+body {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  padding-bottom: 120px;
+}
+  
+a {
+  text-align: center;
+  font-size: 150px;
+}
