@@ -18,23 +18,26 @@ propsCount(mentor);
 
 // Task 2
 
-const someObj = {
-    firstField: "one",
-    seconfField: 2,
-    thirdField: "third",
-    fourthField: 4,
-    fifthField: "fifth"
+const myObj = {
+  name: "John",
+  age: 30,
+  city: "New York",
+  job: "Developer",
+  isMarried: false
 };
 
 function showProps(obj) {
-    let arr = [Object.keys(someObj)];
-    let  values = [Object.values(someObj)];
-    
-    console.log(arr);
-    console.log(values);
+  const propNames = Object.keys(obj);
+  const propValues = Object.values(obj);
+  
+  console.log("Object properties:");
+  console.log(propNames);
+  
+  console.log("Object values:");
+  console.log(propValues);
 }
 
-showProps(someObj);
+showProps(myObj);
 
 // //// /
 
